@@ -5,7 +5,7 @@ import router from '@/routes/'
 // import PlaceOrder from '@/components/PlaceOrder'
 // import examService from '@/services/examService'
 import TestValidate from '@/components/TestValidate'
-import CreateOrgComp from '@/components/dialog/CreateOrgComp'
+import Demo from '@/components/Demo'
 import {getQueryString} from '@/shared/utils/mixins'
 /* eslint-disable no-new */
 /*let currenturl = window.location.href;
@@ -28,7 +28,7 @@ examService.fetchPackageAuth(orgId).then(placeorderData => {
 new Vue({
   el: '#app',
   router,
-  render: h => h(CreateOrgComp)
+  render: h => h(Demo)
 })
 if (__DEV__) {
   console.info('[当前环境] 开发环境')
